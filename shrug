@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "¯\_(ツ)_/¯" | xclip -selection clipboard
+
