@@ -4,9 +4,7 @@ while true; do
       read -p "Where do you want to go? " input
       case $input in
       	   d2017  ) cd /home/$USER/Dropbox/Skole/; break;;
-	   l2017h ) cd /HDD1/Skole/2017/host; break;;
-	   l2017v ) cd /HDD1/Skole/2017/var; break;;
-	   l2017  ) cd /HDD1/Skole/2017; break;;
+	   l2017 ) cd /HDD1/school; break;;
 	   undass ) cd /home/$USER/Dropbox/Skole/Undass; break;;
 	   [qnQN]*     ) break;;
 	   * ) echo "Please answer yes or no.";;
