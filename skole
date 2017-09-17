@@ -3,10 +3,12 @@
 while true; do
       read -p "Where do you want to go? " input
       case $input in
-      	   d2017  ) cd /home/$USER/Dropbox/Skole/; break;;
-	   l2017 ) cd /HDD1/school; break;;
+      	   d  ) cd /home/$USER/Dropbox/Skole/; break;;
+	   l  ) cd /HDD1/school; break;;
+	   d* ) cd /home/$USER/Dropbox/Skole/${input:1}; break;;
+	   l* ) cd /HDD1/school/${input:1}; break;;
 	   undass ) cd /home/$USER/Dropbox/Skole/Undass; break;;
 	   [qnQN]*     ) break;;
-	   * ) echo "Please answer yes or no.";;
+	   * ) echo "I'm sorry, Eirik, I'm afraid I can't let you do that.";;
       esac
 done
