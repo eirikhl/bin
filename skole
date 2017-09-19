@@ -7,6 +7,7 @@ while true; do
 	   l  ) cd /HDD1/school; break;;
 	   d* ) cd /home/$USER/Dropbox/Skole/${input:1}; break;;
 	   l* ) cd /HDD1/school/${input:1}; break;;
+	   b* ) cd /home/$USER/school/${input:1}; break;;
 	   undass ) cd /home/$USER/Dropbox/Skole/Undass; break;;
 	   [qnQN]*     ) break;;
 	   * ) echo "I'm sorry, Eirik, I'm afraid I can't let you do that.";;
