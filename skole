@@ -4,7 +4,7 @@ while true; do
       read -p "Where do you want to go? " input
       case $input in
 	   d* ) cd /home/$USER/Dropbox/Skole/${input:1}; break;;
-	   l* ) cd /HDD1/school/${input:1}; break;;
+	   l* ) cd /hdd1/school/${input:1}; break;;
 	   b* ) cd /home/$USER/school/${input:1}; break;;
 	   undass ) cd /home/$USER/Dropbox/Skole/Undass; break;;
 	   [qnQN]*     ) break;;
